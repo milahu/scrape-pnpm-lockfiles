@@ -1,0 +1,23 @@
+lockfileVersion: 5.3
+
+specifiers:
+  mime: ^3.0.0
+  uWebSockets.js: github:uNetworking/uWebSockets.js#v20.6.0
+
+dependencies:
+  mime: 3.0.0
+  uWebSockets.js: github.com/uNetworking/uWebSockets.js/a58e810e47a23696410f6073c8c905dc38f75da5
+
+packages:
+
+  /mime/3.0.0:
+    resolution: {integrity: sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    dev: false
+
+  github.com/uNetworking/uWebSockets.js/a58e810e47a23696410f6073c8c905dc38f75da5:
+    resolution: {tarball: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/a58e810e47a23696410f6073c8c905dc38f75da5}
+    name: uWebSockets.js
+    version: 20.6.0
+    dev: false
